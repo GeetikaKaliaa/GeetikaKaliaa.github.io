@@ -88,6 +88,16 @@ body{
     --bs-btn-hover-bg: #FFA726;
     --bs-btn-hover-border-color:white;
 }
+#text-content h2{
+  font-size: 1rem;
+}
+#text-content h1{
+  font-size: 3rem;
+}
+#text-ani{
+font-size: 1rem;
+}
+
 .navbar-brand{
   font-family: monospace;
   font-size: 2rem;
@@ -126,7 +136,7 @@ i{
 .ml4 {
     position: relative;
     font-weight: 900;
-    font-size: 1.5em;
+    font-size: 1rem;
 }
 .ml4 .letters {
       color: #ffd43b;
@@ -384,7 +394,7 @@ i{
           font-size: 0.5rem;
         }
   }
-  @media only screen and (max-width: 450px){
+  @media only screen and (max-width: 370px){
     .hero-section{
       width: 100%;
     }
@@ -393,6 +403,9 @@ i{
       display: flex;
       flex-direction: column;
       align-items: center;
+     }
+     #text-content h1{
+      font-size: 1rem;
      }
      #text-content p{
       text-align: center;
