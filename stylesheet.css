@@ -347,7 +347,9 @@ i{
     text-decoration: none;
     color: #fff;
   }
-
+.hire h3{
+  margin-right :20px;
+}
   @media screen and (max-width: 850px){
     .hero-section{
       width: 100%;
@@ -360,7 +362,7 @@ i{
      }
      #text-content p{
       text-align: center;
-      font-size: 1rem;
+      font-size: 1.5rem;
       width:100%;
      }
      .newP img{
@@ -404,6 +406,9 @@ i{
       .projects{
         height: 20rem;
       }
+      .hire{
+        flex-direction: column;
+      }
       .social-buttons a::before{
         width: 2rem;
         height: 2rem;
@@ -413,7 +418,7 @@ i{
      }
      #text-content p{
       text-align: center;
-      font-size: 0.5rem;
+      font-size: 0.8rem;
       width:100%;
      }
      .newP img{
