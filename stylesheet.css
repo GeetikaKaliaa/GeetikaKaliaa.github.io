@@ -133,20 +133,6 @@ i{
 .skills p{
     color: hsla(319, 61%, 46%, 1);
 }
-.ml4 {
-    position: relative;
-    font-weight: 900;
-    font-size: 1rem;
-}
-.ml4 .letters {
-      color: #ffd43b;
-    position: absolute;
-    margin: auto;
-    left: 0;
-    top: 0.3em;
-    right: 0;
-    opacity: 0; 
-  }
   .tools{
     width: 100%;
     height: 40%;
@@ -380,9 +366,7 @@ i{
       width: 2rem;
       height: 2rem;
      }
-      .navbar-brand{
-      font-size: 1rem;
-      }
+      
         
         #slider h2{
           font-size: 2rem;
@@ -407,6 +391,9 @@ i{
       flex-direction: column;
       align-items: center;
      }
+     .navbar-brand{
+      font-size: 1rem;
+      }
      #text-content h1{
       font-size: 1rem;
      }
