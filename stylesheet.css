@@ -1,4 +1,6 @@
 *{
+  margin: 0;
+  padding: 0;
     box-sizing: border-box;
     font-family: "Mona Sans","Mona Sans Header Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
     color: rgb(222, 219, 219);
@@ -349,7 +351,7 @@ i{
     color: #fff;
   }
 
-  @media screen and (max-width:850px){
+  @media screen and (max-width: 850px){
     .hero-section{
       width: 100%;
     }
@@ -363,9 +365,6 @@ i{
       text-align: center;
       font-size: 1rem;
       width:100%;
-     }
-     .tools{
-
      }
      .newP img{
       width: 2rem;
@@ -383,6 +382,39 @@ i{
         }
         .footer p{
           font-size: 0.5rem;
+        }
+  }
+  @media only screen and (max-width: 450px){
+    .hero-section{
+      width: 100%;
+    }
+     .hero-section #text-content{
+      font-size: 0.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     }
+     #text-content p{
+      text-align: center;
+      font-size: 0.5rem;
+      width:100%;
+     }
+     .newP img{
+      width: 2rem;
+      height: 2rem;
+      
+        }
+        #slider h2{
+          font-size: 1rem;
+        }
+        #slider h3{
+          font-size: 0.5rem;
+        }
+        .dp-content p{
+          font-size: 0rem;
+        }
+        .footer p{
+          font-size: 0rem;
         }
   }
   .wid{
