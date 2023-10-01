@@ -58,8 +58,6 @@ body{
 
 .social-buttons a:hover i {
   background: linear-gradient(45deg, #AB47BC, #FFA726);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   transform: scale(2.2);
 }
 .primary-section{
