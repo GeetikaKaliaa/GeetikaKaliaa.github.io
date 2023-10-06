@@ -1,3 +1,4 @@
+
   jQuery(document).ready(function(){
 
     function detect_active(){
