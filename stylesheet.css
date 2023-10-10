@@ -232,7 +232,6 @@ i{
 .projects{
     width: 100%;
     height: auto;
-    /* min-height: 40rem; */
     font-size: 1.3em;
     
 }
@@ -246,7 +245,6 @@ i{
 }
 .about{
   height: auto;
-  min-height: 70vh;
 }
 .contact{
     width: 100%;
