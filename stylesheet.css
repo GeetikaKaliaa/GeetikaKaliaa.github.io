@@ -471,9 +471,7 @@ i{
         .dp-content p{
           font-size: 0.5rem;
         }
-        .projects{
-          /* height: 20rem; */
-        }
+       
         .footer p{
           font-size: 0.5rem;
         }
@@ -495,9 +493,7 @@ i{
       .social-buttons a{
       width:1rem;
       }
-      .projects{
-        /* height: 20rem; */
-      }
+      
       .hire{
         flex-direction: column;
       }
